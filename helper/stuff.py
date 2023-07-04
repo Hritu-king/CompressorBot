@@ -34,7 +34,7 @@ async def start(event):
             [Button.inline("HELP", data="ihelp")],
             [
 
-                Button.url("DEVELOPER", url="t.me/kapilkumar100n"),
+                Button.url("DEVELOPER", url="t.me/kapilkumar100"),
             ],
         ],
     )
