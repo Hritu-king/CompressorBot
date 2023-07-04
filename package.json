@@ -9,12 +9,12 @@
 },
 "repository": {
 "type": "git",
-"url": "git+https://github.com/Hritu-king/CompressorBot.git"
+"url": "git+https://github.com/amitnara126/CompressorBot.git"
 },
-"author": "Hritu",
+"author": "amit",
 "license": "ISC",
 "bugs": {
-"url": "https://github.com/Hritu-king/CompressorBot/issues"
+"url": "https://github.com/amitnara126/CompressorBot/issues"
 },
-"homepage": "https://github.com/Hritu-king/CompressorBot#readme"
+"homepage": "https://github.com/amitnara126/CompressorBot#readme"
 }
