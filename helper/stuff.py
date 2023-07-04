@@ -34,7 +34,7 @@ async def start(event):
             [Button.inline("HELP", data="ihelp")],
             [
 
-                Button.url("DEVELOPER", url="@Kapilkumar100"),
+                Button.url("DEVELOPER", url="t.me/kapilkumar100n"),
             ],
         ],
     )
@@ -61,7 +61,7 @@ async def beck(event):
             [Button.inline("HELP", data="ihelp")],
             [
                
-                Button.url("DEVELOPER", url="@Kapilkumar100),
+                Button.url("DEVELOPER", url="t.me/kapilkumar100),
             ],
         ],
     )
