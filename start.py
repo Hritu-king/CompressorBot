@@ -14,7 +14,6 @@
 
 
 from helper._get import *
-from * import mediainfo
 
 LOGS.info("Starting...")
 
