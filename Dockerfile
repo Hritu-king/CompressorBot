@@ -7,4 +7,6 @@ RUN python -m pip install --upgrade pip
 COPY . .
 EXPOSE 8080
 RUN pip install -r requirements.txt # Changed 'pip3' to 'pip' since 'pip' is the default package manager for Python 3.x
+RUN apt-get -qq install -y procps # Added 'apt-get' command to install 'procps' package for 'healthcheck'
+HEALTHCHECK --interval=5m --timeout=3s CMD ps aux | grep python || exit 1 # Added a health check command to check if python process is running
 CMD ["bash", "run.sh"]
